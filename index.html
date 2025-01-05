@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I❤️YOU</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="upload-container">
+        <h1>Happy anniversary 2.0 mimor!</h1>
+        <h2>Tenemos una serie de actividades planeadas para vos</h2>
+        <h3>Vamos a nuestra primera actividad</h3>
+        <a href="https://thewordsearch.com/puzzle/7902804/sltty-vampires/" target="_blank">Primer desafío, empezamos con algo sencillo y bonito (click aquí)</a>
+        <p>Cuando termines la actividad por favor sube captura de que la haz terminado para poder desbloquear la sgt fase</p>
+        <input type="file" id="fileInput" />
+        <button id="uploadButton">Upload</button>
+        <div id="progressContainer" class="progress-container" style="display: none;">
+            <div id="progressBar" class="progress-bar"></div>
+            <p id="statusText">Uploading...</p>
+        </div>
+        <p id="uploadStatus"></p>
+        <p id="finalMessage" style="display: none;">¡OK!</p>
+        <button id="nextChallengeButton" style="display: none;" onclick="goToNextChallenge()">Ir al siguiente desafío</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

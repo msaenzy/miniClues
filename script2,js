@@ -38,6 +38,6 @@ document.getElementById('uploadButton').addEventListener('click', function() {
 
 function goToNextChallenge() {
 
-    window.location.href = 'index2.html';
+    window.location.href = 'index3.html';
     // Aquí puedes agregar la lógica para redirigir o mostrar el siguiente desafío
 }

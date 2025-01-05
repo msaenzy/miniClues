@@ -25,8 +25,8 @@ document.getElementById('uploadButton').addEventListener('click', function() {
 
         if (progress >= 100) {
             clearInterval(interval);
-            statusText.textContent = 'Upload Complete!';
-            uploadStatus.textContent = 'Correcto!';
+            statusText.textContent = 'Hiciste un excelente trabajo!';
+            uploadStatus.textContent = 'EL PREMIO AHORA SI!';
             setTimeout(function() {
                 // Display the OK message and the next challenge button
                 finalMessage.style.display = 'block';
